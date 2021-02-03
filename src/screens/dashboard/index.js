@@ -75,6 +75,7 @@ const DashboardPage = () => {
                 <input 
                 // value={newRepo}
                 // onChange={(e) => setNewRepo(e.target.value)}
+                disabled
                 placeholder="Digite o que deseja buscar"/>
                 <button type="submit" onClick={handleSearch}>Pesquisar</button>
                 </Form>
