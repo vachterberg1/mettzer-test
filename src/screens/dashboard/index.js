@@ -113,7 +113,7 @@ const DashboardPage = () => {
 
                             <section>
                                 <strong>{favs.title}</strong>
-                                <p>Descrição</p>
+                                <p>{favs.authors}</p>
                             </section>
                             <button>
                                 <IoIosRemoveCircle
